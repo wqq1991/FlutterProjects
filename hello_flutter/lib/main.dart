@@ -48,7 +48,7 @@ class MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateMi
         bottomNavigationBar: new Material(
           color: Colors.orangeAccent,
           child: new TabBar(
-            controller: controller,
+            controller: controller, 
             tabs: <Tab>[
               new Tab(text: '首页',icon: new Icon(Icons.home)),
               new Tab(text: '列表',icon: new Icon(Icons.list)),
