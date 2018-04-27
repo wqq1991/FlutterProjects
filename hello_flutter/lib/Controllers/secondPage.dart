@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './listPage.dart';
 
 class SecondPage extends StatefulWidget {
   
@@ -17,7 +18,7 @@ class SecondPageState extends State<SecondPage> {
           centerTitle: true,
         ),
         body: new Center(
-          child: new Text('这是第二个界面'),
+          child: new ,
         ),
 
       );
