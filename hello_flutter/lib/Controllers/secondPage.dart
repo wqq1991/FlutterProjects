@@ -18,13 +18,13 @@ return new ListTile(
             title: new Text('title'),
             subtitle: new Text('subTitle'),
             trailing: new Icon(Icons.arrow_right,color: Colors.grey,),
-          ); do
+          ); 
 }
 
   @override
     Widget build(BuildContext context) {
 
-      List<String> items =  <String>['A','B','C','D','E','F','G','H','J'];
+      List<String> items =  <String>['A','B','C','D','E','F','G','H','J','A','B','C','D','E','F','G','H','J','A','B','C','D','E','F','G','H','J'];
 
       Iterable<Widget> listTiles = items.map((String item){
  

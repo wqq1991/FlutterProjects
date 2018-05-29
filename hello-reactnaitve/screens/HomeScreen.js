@@ -21,6 +21,7 @@ export default class HomeScreen extends React.Component {
     return (
       <View style={{flex: 1,flexDirection: 'column', 
                    justifyContent: 'space-between',
+                   backgroundColor: '#E0E0E0'
                    }}>
       <View style={{ height:50, backgroundColor: 'blue'}}></View>
       <View style={{ height:50, backgroundColor: 'green'}}></View>
@@ -66,7 +67,7 @@ export default class HomeScreen extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#fff000',
   },
   developmentModeText: {
     marginBottom: 20,
@@ -128,7 +129,7 @@ const styles = StyleSheet.create({
       },
     }),
     alignItems: 'center',
-    backgroundColor: '#fbfbfb',
+    backgroundColor: '#fbfb',
     paddingVertical: 20,
   },
   tabBarInfoText: {
